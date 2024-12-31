@@ -1,0 +1,102 @@
+# Create .gitignore file
+cat > .gitignore << 'EOL'
+# Gradle specific
+.gradle/
+build/
+out/
+bin/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.nar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+.metadata/
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Dependency directories
+node_modules/
+
+# Sensitive or local configuration
+*.env
+local.properties
+
+# Compiled Python files
+*.pyc
+
+# Backup files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Gradle build cache
+.gradle-build-cache/
+
+# JVM crash logs
+hs_err_pid*
+
+# Compiled bytecode
+*.class
+
+# Log backup files
+*.log.*
+
+# Compiled native libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Profiler and performance analysis files
+*.hprof
+EOL
+
+# Set appropriate permissions
+chmod 644 .gitignore

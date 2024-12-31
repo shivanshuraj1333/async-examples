@@ -1,0 +1,77 @@
+# SBT specific
+target/
+project/project/
+project/target/
+project/boot/
+project/plugins/project/
+
+# Scala specific
+*.class
+*.log
+
+# IntelliJ IDEA specific
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+.metals/
+.bsp/
+
+# Mac specific
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Metals (Scala language server)
+.metals/
+.bloop/
+
+# VS Code
+.vscode/
+
+# Ensime
+.ensime
+.ensime_cache/
+
+# Dotty/Scala 3
+.dotty-ide.json
+.dotty-ide-artifact
+
+# Dependency management
+dependency-reduced-pom.xml
+
+# Build artifacts
+*.jar
+!project/build.properties
+!project/plugins.sbt
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production 
+
+# Version management files
+.java-version
+.jvmopts
+.tool-versions
+
+# Optional: .sbtopts (if machine-specific)
+# .sbtopts
+
+# Keep scalafmt configuration
+!.scalafmt.conf
+
+.sbtopts
